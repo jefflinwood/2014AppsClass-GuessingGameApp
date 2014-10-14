@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		282E627019EDAB6800CE0381 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 282E626F19EDAB6800CE0381 /* Foundation.framework */; };
+		282E627219EDAB6800CE0381 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 282E627119EDAB6800CE0381 /* CoreGraphics.framework */; };
+		282E627419EDAB6800CE0381 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 282E627319EDAB6800CE0381 /* UIKit.framework */; };
+		282E627A19EDAB6800CE0381 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 282E627819EDAB6800CE0381 /* InfoPlist.strings */; };
+		282E627C19EDAB6800CE0381 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 282E627B19EDAB6800CE0381 /* main.m */; };
+		282E628019EDAB6800CE0381 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 282E627F19EDAB6800CE0381 /* AppDelegate.m */; };
+		282E628319EDAB6800CE0381 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 282E628119EDAB6800CE0381 /* Main.storyboard */; };
+		282E628619EDAB6800CE0381 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 282E628519EDAB6800CE0381 /* ViewController.m */; };
+		282E628819EDAB6800CE0381 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 282E628719EDAB6800CE0381 /* Images.xcassets */; };
+		282E628F19EDAB6800CE0381 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 282E628E19EDAB6800CE0381 /* XCTest.framework */; };
+		282E629019EDAB6800CE0381 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 282E626F19EDAB6800CE0381 /* Foundation.framework */; };
+		282E629119EDAB6800CE0381 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 282E627319EDAB6800CE0381 /* UIKit.framework */; };
+		282E629919EDAB6800CE0381 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 282E629719EDAB6800CE0381 /* InfoPlist.strings */; };
+		282E629B19EDAB6800CE0381 /* GuessingGameAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 282E629A19EDAB6800CE0381 /* GuessingGameAppTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		282E629219EDAB6800CE0381 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 282E626419EDAB6700CE0381 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 282E626B19EDAB6800CE0381;
+			remoteInfo = GuessingGameApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		282E626C19EDAB6800CE0381 /* GuessingGameApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuessingGameApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		282E626F19EDAB6800CE0381 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		282E627119EDAB6800CE0381 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		282E627319EDAB6800CE0381 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		282E627719EDAB6800CE0381 /* GuessingGameApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GuessingGameApp-Info.plist"; sourceTree = "<group>"; };
+		282E627919EDAB6800CE0381 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		282E627B19EDAB6800CE0381 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		282E627D19EDAB6800CE0381 /* GuessingGameApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GuessingGameApp-Prefix.pch"; sourceTree = "<group>"; };
+		282E627E19EDAB6800CE0381 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		282E627F19EDAB6800CE0381 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		282E628219EDAB6800CE0381 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		282E628419EDAB6800CE0381 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		282E628519EDAB6800CE0381 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		282E628719EDAB6800CE0381 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		282E628D19EDAB6800CE0381 /* GuessingGameAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuessingGameAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		282E628E19EDAB6800CE0381 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		282E629619EDAB6800CE0381 /* GuessingGameAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GuessingGameAppTests-Info.plist"; sourceTree = "<group>"; };
+		282E629819EDAB6800CE0381 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		282E629A19EDAB6800CE0381 /* GuessingGameAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuessingGameAppTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		282E626919EDAB6800CE0381 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				282E627219EDAB6800CE0381 /* CoreGraphics.framework in Frameworks */,
+				282E627419EDAB6800CE0381 /* UIKit.framework in Frameworks */,
+				282E627019EDAB6800CE0381 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		282E628A19EDAB6800CE0381 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				282E628F19EDAB6800CE0381 /* XCTest.framework in Frameworks */,
+				282E629119EDAB6800CE0381 /* UIKit.framework in Frameworks */,
+				282E629019EDAB6800CE0381 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		282E626319EDAB6700CE0381 = {
+			isa = PBXGroup;
+			children = (
+				282E627519EDAB6800CE0381 /* GuessingGameApp */,
+				282E629419EDAB6800CE0381 /* GuessingGameAppTests */,
+				282E626E19EDAB6800CE0381 /* Frameworks */,
+				282E626D19EDAB6800CE0381 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		282E626D19EDAB6800CE0381 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				282E626C19EDAB6800CE0381 /* GuessingGameApp.app */,
+				282E628D19EDAB6800CE0381 /* GuessingGameAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		282E626E19EDAB6800CE0381 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				282E626F19EDAB6800CE0381 /* Foundation.framework */,
+				282E627119EDAB6800CE0381 /* CoreGraphics.framework */,
+				282E627319EDAB6800CE0381 /* UIKit.framework */,
+				282E628E19EDAB6800CE0381 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		282E627519EDAB6800CE0381 /* GuessingGameApp */ = {
+			isa = PBXGroup;
+			children = (
+				282E627E19EDAB6800CE0381 /* AppDelegate.h */,
+				282E627F19EDAB6800CE0381 /* AppDelegate.m */,
+				282E628119EDAB6800CE0381 /* Main.storyboard */,
+				282E628419EDAB6800CE0381 /* ViewController.h */,
+				282E628519EDAB6800CE0381 /* ViewController.m */,
+				282E628719EDAB6800CE0381 /* Images.xcassets */,
+				282E627619EDAB6800CE0381 /* Supporting Files */,
+			);
+			path = GuessingGameApp;
+			sourceTree = "<group>";
+		};
+		282E627619EDAB6800CE0381 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				282E627719EDAB6800CE0381 /* GuessingGameApp-Info.plist */,
+				282E627819EDAB6800CE0381 /* InfoPlist.strings */,
+				282E627B19EDAB6800CE0381 /* main.m */,
+				282E627D19EDAB6800CE0381 /* GuessingGameApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		282E629419EDAB6800CE0381 /* GuessingGameAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				282E629A19EDAB6800CE0381 /* GuessingGameAppTests.m */,
+				282E629519EDAB6800CE0381 /* Supporting Files */,
+			);
+			path = GuessingGameAppTests;
+			sourceTree = "<group>";
+		};
+		282E629519EDAB6800CE0381 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				282E629619EDAB6800CE0381 /* GuessingGameAppTests-Info.plist */,
+				282E629719EDAB6800CE0381 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		282E626B19EDAB6800CE0381 /* GuessingGameApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 282E629E19EDAB6800CE0381 /* Build configuration list for PBXNativeTarget "GuessingGameApp" */;
+			buildPhases = (
+				282E626819EDAB6800CE0381 /* Sources */,
+				282E626919EDAB6800CE0381 /* Frameworks */,
+				282E626A19EDAB6800CE0381 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GuessingGameApp;
+			productName = GuessingGameApp;
+			productReference = 282E626C19EDAB6800CE0381 /* GuessingGameApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		282E628C19EDAB6800CE0381 /* GuessingGameAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 282E62A119EDAB6800CE0381 /* Build configuration list for PBXNativeTarget "GuessingGameAppTests" */;
+			buildPhases = (
+				282E628919EDAB6800CE0381 /* Sources */,
+				282E628A19EDAB6800CE0381 /* Frameworks */,
+				282E628B19EDAB6800CE0381 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				282E629319EDAB6800CE0381 /* PBXTargetDependency */,
+			);
+			name = GuessingGameAppTests;
+			productName = GuessingGameAppTests;
+			productReference = 282E628D19EDAB6800CE0381 /* GuessingGameAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		282E626419EDAB6700CE0381 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Jeff Linwood";
+				TargetAttributes = {
+					282E628C19EDAB6800CE0381 = {
+						TestTargetID = 282E626B19EDAB6800CE0381;
+					};
+				};
+			};
+			buildConfigurationList = 282E626719EDAB6700CE0381 /* Build configuration list for PBXProject "GuessingGameApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 282E626319EDAB6700CE0381;
+			productRefGroup = 282E626D19EDAB6800CE0381 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				282E626B19EDAB6800CE0381 /* GuessingGameApp */,
+				282E628C19EDAB6800CE0381 /* GuessingGameAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		282E626A19EDAB6800CE0381 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				282E628819EDAB6800CE0381 /* Images.xcassets in Resources */,
+				282E627A19EDAB6800CE0381 /* InfoPlist.strings in Resources */,
+				282E628319EDAB6800CE0381 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		282E628B19EDAB6800CE0381 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				282E629919EDAB6800CE0381 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		282E626819EDAB6800CE0381 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				282E628619EDAB6800CE0381 /* ViewController.m in Sources */,
+				282E628019EDAB6800CE0381 /* AppDelegate.m in Sources */,
+				282E627C19EDAB6800CE0381 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		282E628919EDAB6800CE0381 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				282E629B19EDAB6800CE0381 /* GuessingGameAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		282E629319EDAB6800CE0381 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 282E626B19EDAB6800CE0381 /* GuessingGameApp */;
+			targetProxy = 282E629219EDAB6800CE0381 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		282E627819EDAB6800CE0381 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				282E627919EDAB6800CE0381 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		282E628119EDAB6800CE0381 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				282E628219EDAB6800CE0381 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		282E629719EDAB6800CE0381 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				282E629819EDAB6800CE0381 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		282E629C19EDAB6800CE0381 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		282E629D19EDAB6800CE0381 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		282E629F19EDAB6800CE0381 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GuessingGameApp/GuessingGameApp-Prefix.pch";
+				INFOPLIST_FILE = "GuessingGameApp/GuessingGameApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		282E62A019EDAB6800CE0381 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GuessingGameApp/GuessingGameApp-Prefix.pch";
+				INFOPLIST_FILE = "GuessingGameApp/GuessingGameApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		282E62A219EDAB6800CE0381 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GuessingGameApp.app/GuessingGameApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GuessingGameApp/GuessingGameApp-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GuessingGameAppTests/GuessingGameAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		282E62A319EDAB6800CE0381 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GuessingGameApp.app/GuessingGameApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GuessingGameApp/GuessingGameApp-Prefix.pch";
+				INFOPLIST_FILE = "GuessingGameAppTests/GuessingGameAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		282E626719EDAB6700CE0381 /* Build configuration list for PBXProject "GuessingGameApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				282E629C19EDAB6800CE0381 /* Debug */,
+				282E629D19EDAB6800CE0381 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		282E629E19EDAB6800CE0381 /* Build configuration list for PBXNativeTarget "GuessingGameApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				282E629F19EDAB6800CE0381 /* Debug */,
+				282E62A019EDAB6800CE0381 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		282E62A119EDAB6800CE0381 /* Build configuration list for PBXNativeTarget "GuessingGameAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				282E62A219EDAB6800CE0381 /* Debug */,
+				282E62A319EDAB6800CE0381 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 282E626419EDAB6700CE0381 /* Project object */;
+}
