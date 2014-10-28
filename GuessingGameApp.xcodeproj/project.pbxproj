@@ -21,6 +21,8 @@
 		282E629119EDAB6800CE0381 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 282E627319EDAB6800CE0381 /* UIKit.framework */; };
 		282E629919EDAB6800CE0381 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 282E629719EDAB6800CE0381 /* InfoPlist.strings */; };
 		282E629B19EDAB6800CE0381 /* GuessingGameAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 282E629A19EDAB6800CE0381 /* GuessingGameAppTests.m */; };
+		282E62A619EDB12000CE0381 /* GuessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 282E62A519EDB12000CE0381 /* GuessViewController.m */; };
+		282E62A919EDB12A00CE0381 /* AnswerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 282E62A819EDB12A00CE0381 /* AnswerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		282E629619EDAB6800CE0381 /* GuessingGameAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GuessingGameAppTests-Info.plist"; sourceTree = "<group>"; };
 		282E629819EDAB6800CE0381 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		282E629A19EDAB6800CE0381 /* GuessingGameAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuessingGameAppTests.m; sourceTree = "<group>"; };
+		282E62A419EDB12000CE0381 /* GuessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuessViewController.h; sourceTree = "<group>"; };
+		282E62A519EDB12000CE0381 /* GuessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuessViewController.m; sourceTree = "<group>"; };
+		282E62A719EDB12A00CE0381 /* AnswerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnswerViewController.h; sourceTree = "<group>"; };
+		282E62A819EDB12A00CE0381 /* AnswerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnswerViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +125,10 @@
 				282E628519EDAB6800CE0381 /* ViewController.m */,
 				282E628719EDAB6800CE0381 /* Images.xcassets */,
 				282E627619EDAB6800CE0381 /* Supporting Files */,
+				282E62A419EDB12000CE0381 /* GuessViewController.h */,
+				282E62A519EDB12000CE0381 /* GuessViewController.m */,
+				282E62A719EDB12A00CE0381 /* AnswerViewController.h */,
+				282E62A819EDB12A00CE0381 /* AnswerViewController.m */,
 			);
 			path = GuessingGameApp;
 			sourceTree = "<group>";
@@ -250,7 +260,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				282E628619EDAB6800CE0381 /* ViewController.m in Sources */,
+				282E62A919EDB12A00CE0381 /* AnswerViewController.m in Sources */,
 				282E628019EDAB6800CE0381 /* AppDelegate.m in Sources */,
+				282E62A619EDB12000CE0381 /* GuessViewController.m in Sources */,
 				282E627C19EDAB6800CE0381 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
